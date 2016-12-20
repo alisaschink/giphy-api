@@ -1,5 +1,8 @@
     //declares array of topics
-    var topics = ["Pig", "Cat", "Dog", "Sloth"];
+    var topics = ["Halloween", "Clerks", "Gone with the Wind", "Friday the 13th", "The Wizard of Oz", "Beetlejuice", 
+    "The Nightmare Before Christmas", "Miracle on 34th Street", "Elf", "Bladerunner", "Lord of the Rings", "Star Wars", "Jurassic Park",
+     "Finding Nemo", "The Boondock Saints", "Pulp Fiction", "The Shining", "Tucker and Dale vs Evil", "Back to the Future", "Ghostbusters",
+      "Toy Story", "Minions", "Harry Potter", "There Will Be Blood"];
 
     //function re-renders the HTML to display the appropriate content
     function displayGifs() {
