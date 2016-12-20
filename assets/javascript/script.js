@@ -120,12 +120,12 @@
           //sets gif src to animated url
           $(this).attr("src", $(this).data("animate"));
           //changes state to animate
-          $(this).attr("data-state", "animate");
+          $(this).data("state", "animate");
         } else {
           //sets gif src to still url
           $(this).attr("src", $(this).data("still"));
           //changes state to still
-          $(this).attr("data-state", "still");
+          $(this).data("state", "still");
         };
     };
 
