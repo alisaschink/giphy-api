@@ -32,6 +32,8 @@
           //sets variable to create div
           var gifDiv = $("<div>");
 
+          gifDiv.attr("class", "gifDiv");
+
           //sets variable to create paragraph
           var p = $("<p>");
 
@@ -78,7 +80,7 @@
         for (var i = 0; i < topics.length; i++) {
 
           //generates buttons for each movie in the array
-          var button = $("<button>");
+          var button = $("<div>");
           //adds a class of topic to button
           button.addClass("topic");
           //adds a data-attribute
